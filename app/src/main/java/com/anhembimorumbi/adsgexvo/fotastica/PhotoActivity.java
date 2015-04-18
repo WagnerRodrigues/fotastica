@@ -111,7 +111,7 @@ public class PhotoActivity extends ActionBarActivity {
         return true;
     }
 
-    private Bitmap toHorizontalEdge(Bitmap bmpOriginal){
+    private Bitmap toVerticalEdge(Bitmap bmpOriginal){
         int l= CvType.CV_8UC1;
         Mat matImage = new Mat();
         Mat src_gray = new Mat();
@@ -137,7 +137,7 @@ public class PhotoActivity extends ActionBarActivity {
         return destImage;
     }
 
-    private Bitmap toVerticalEdge(Bitmap bmpOriginal){
+    private Bitmap toHorizontalEdge(Bitmap bmpOriginal){
         int l= CvType.CV_8UC1;
         Mat matImage = new Mat();
         Mat src_gray = new Mat();

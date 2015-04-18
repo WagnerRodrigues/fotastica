@@ -9,5 +9,4 @@
     <item android:id="@+id/action_contrast" android:title="Contraste" android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_laplace" android:title="Filtro laplaciano" android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_histogram" android:title="Histograma" android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/action_facebook" android:title="Publicar no Facebook" android:orderInCategory="100" app:showAsAction="never" />
 </menu>

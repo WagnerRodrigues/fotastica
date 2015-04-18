@@ -51,13 +51,14 @@ public class MainActivity extends ActionBarActivity {
                 //Captura a imagem da camera
 
 
-                /*Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                     startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-                }*/
+                }
 
-                imageBitmap = ResizeBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.bmpref),300);
-                AbreTratamentoImagem();
+                // Linha de comando para teste das funcionalidades.
+                //imageBitmap = ResizeBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.bmpref),300);
+                //AbreTratamentoImagem();
             }
         });
 
